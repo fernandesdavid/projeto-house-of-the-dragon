@@ -1,5 +1,5 @@
 @charset 'UTF-8';
-@import url();
+
 body{
     font-family: fonte-texto;
     margin: 0;
@@ -13,13 +13,19 @@ body{
     width: 100%;
     z-index: -1;
 }
-
+#carlos{
+    color: #000000;
+}
 .informacoes{
     display: none;
 }
 
 .informacoes.ativa{
     display: block;
+}
+
+.descricao{
+    width: 75px;
 }
 
 .conteudo{
@@ -37,7 +43,7 @@ body{
 }
 
 .informacoes .descricao{
-    width: 49%;
+    width: 51%;
     font-size: 24px;
     color: #ffffff;
     line-height: 40px;
